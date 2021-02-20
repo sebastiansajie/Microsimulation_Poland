@@ -39,6 +39,7 @@ class GrowFactors(object):
     CUR_PATH = os.path.abspath(os.path.dirname(__file__))
     FILENAME = 'growfactors_poland.csv'
     FILE_PATH = os.path.join(CUR_PATH, FILENAME)
+    print(FILE_PATH)
 
     # TODO: Growfactors for Corporate and non-corporate Income heads are
     # TODO: currently set as same. New field names should be read in case we

@@ -13,7 +13,7 @@ recs = Records()
 grecs = GSTRecords()
 
 # create CorpRecords object using cross-section data
-crecs1 = CorpRecords(data='cit_cross.csv', weights='cit_cross_wgts.csv')
+crecs1 = CorpRecords(data='cit_poland.csv', weights='cit_weights_poland.csv')
 
 # create CorpRecords object using panel data
 crecs2 = CorpRecords(data='cit_panel.csv', data_type='panel')

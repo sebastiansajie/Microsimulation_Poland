@@ -8,13 +8,26 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from taxcalc import *
 
-# create Records object containing pit.csv and pit_weights.csv input data
-recs = Records()
+__file__ = 'app00_poland.py'
 
-grecs = GSTRecords()
+CUR_PATH = os.path.abspath(os.path.dirname(__file__))
+FILENAME = 'taxcalc\growfactors_poland.csv'
+FILE_PATH = os.path.join(CUR_PATH, FILENAME)
+print("IN APP", FILE_PATH)
+    
+FILENAME1 = 'C:/Users/wb305167/OneDrive - WBG/python_latest/Microsimulation/Microsimulation_Poland/taxcalc/growfactors_polandxx.csv'
+
+#gfactors=GrowFactors(growfactors_filename=FILE_PATH)
+
+#print(gfactors)
+
+# create Records object containing pit.csv and pit_weights.csv input data
+recs = Records(gfactors=GrowFactors(growfactors_filename=FILE_PATH))
+
+grecs = GSTRecords(gfactors=GrowFactors(growfactors_filename=FILE_PATH))
 
 # create CorpRecords object using cross-section data
-crecs1 = CorpRecords(data='cit_poland.csv', weights='cit_weights_poland.csv')
+crecs1 = CorpRecords(data='cit_poland.csv', gfactors=GrowFactors(growfactors_filename=FILE_PATH), weights='cit_weights_poland.csv')
 # Note: weights argument is optional
 assert isinstance(crecs1, CorpRecords)
 assert crecs1.current_year == 2017
