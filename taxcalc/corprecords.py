@@ -85,7 +85,10 @@ class CorpRecords(object):
     CIT_WEIGHTS_FILENAME = 'cit_weights_poland.csv'
     CIT_BLOWFACTORS_FILENAME = 'cit_panel_blowup.csv'
     VAR_INFO_FILENAME = 'corprecords_variables_poland.json'
-
+    #FILENAME = 'growfactors_poland.csv'
+    #FILE_PATH = os.path.join(CUR_PATH, FILENAME)
+    #print(FILE_PATH)
+    
     def __init__(self,
                  data=CIT_DATA_FILENAME,
                  data_type='cross-section',
