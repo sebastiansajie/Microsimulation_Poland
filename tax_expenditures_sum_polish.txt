@@ -1,0 +1,17 @@
+Wydatki Podatkowe,Milion Zlotys
+tax_expenditure_Rate at which Small Corporations are Taxed,6.729056000000008
+"tax_expenditure_Dochody(Przych.) Wolne Od Pod.,Cele Stat.",315.07034239999996
+tax_expenditure_Dochody Wolne Od Podatku (Art.17 Ust.1 Pkt 4),2239.9307753599996
+tax_expenditure_Dochody Z DziaÅ‚alnoÅ›ci Pozarolniczej-Wolne Od Podatku,180.95984863999993
+"tax_expenditure_Dotacje, Subwen., DopÅ‚aty I Inne Nieodp. Swiad.-Wolne Od Podatku",1588.7262375999999
+tax_expenditure_DochÃ³d Wolny Od Podatku na Podstawie Art. 17 Ust.1 Pkt 23 I Pkt 24,7.367824559999897
+tax_expenditure_Dochody Wolne Od Podatku Na Podstawie Art.17 Ust.1 Pkt.34,115.29126887999999
+tax_expenditure_Dochody Wolne Od Podatku na Podstawie Art.17 Ust.1 Pkt.34,402.2090376799998
+"tax_expenditure_Dochody SpÃ³Å‚dzielni Mieszkan.,WspÃ³lnot Mieszkan-Wolne od Podatku",956.8801462399999
+tax_expenditure_Dotacje z BudÅ¼etu PaÅ„stwa Lub Jst- Wolne od Podatku,2895.38999528
+tax_expenditure_Kwoty od Agencji RzÄ…dowych Lub Agencji Wykonawczych-Wolne od Podat.,0.0
+tax_expenditure_Dochody Grup ProducentÃ³w Rolnych-Wolne od Podatku Na,20.266933679999944
+tax_expenditure_Dochody z Tyt. PÅ‚atn. Progr.Finans.z Udz.Å›rod.Europ.-od Podatku,9.028389599999997
+"tax_expenditure_Dochody z Tyt. Å›rod.Fin., Otrz. Przez Uczest.Proj.-Wolne od Podatku",638.0207493600001
+tax_expenditure_PozostaÅ‚e Dochody (Przychody) Wolne od Podatku z Art.17 Ust.1 ,3931.7795084000004
+tax_expenditure_Dochody Wolne od Podatku-Inne,225.34201703999994
